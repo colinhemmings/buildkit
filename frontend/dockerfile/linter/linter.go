@@ -8,6 +8,7 @@ import (
 )
 
 type LinterRule[F any] struct {
+	NumericID	  string
 	Name        string
 	Description string
 	URL         string
